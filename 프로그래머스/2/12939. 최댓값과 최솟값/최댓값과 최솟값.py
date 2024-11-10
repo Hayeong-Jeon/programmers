@@ -1,14 +1,12 @@
 def solution(s):
-    answer=[]
-    num1 = [int(i) for i in s.split(' ')]
-    answer.append(str(min(num1)))
-    answer.append(str(max(num1)))
-    
-    print(answer)
-    
+    answer= []
+    num = [int(i) for i in s.split(' ')]
+
+    answer.append(str(min(num)))
+    answer.append(str(max(num)))
+
     string =''
     for i in answer:
         string += i + ' '
     
-    print(string)
     return string.strip()
