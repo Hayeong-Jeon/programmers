@@ -17,5 +17,4 @@ def solution(n):
         count+=1
         
         
-        
     return result
