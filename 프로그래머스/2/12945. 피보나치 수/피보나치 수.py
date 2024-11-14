@@ -16,5 +16,4 @@ def solution(n):
         sumn=bef+aft
         count+=1
         
-        
     return result
