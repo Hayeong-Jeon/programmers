@@ -4,7 +4,6 @@ def solution(n):
     bef = 0
     aft = 1
     sumn=bef+aft
-    
     result=0
     while answer:
         if count == n:
