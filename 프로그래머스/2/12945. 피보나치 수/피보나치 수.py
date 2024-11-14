@@ -5,6 +5,7 @@ def solution(n):
     aft = 1
     sumn=bef+aft
     result=0
+    
     while answer:
         if count == n:
             result=sumn%1234567
