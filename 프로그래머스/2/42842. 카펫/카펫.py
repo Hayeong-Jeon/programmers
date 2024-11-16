@@ -1,5 +1,5 @@
 def solution(brown, yellow):
-    
+
     total = brown + yellow
     
     # 노란색 격자는 갈색 x, y보다 2가 적다는 성질을 이용해서 식을 만들 수 있다.
