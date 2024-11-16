@@ -19,7 +19,6 @@ def solution(s):
         
     elif s[0]==")" or s[lens-1]!=")": 	#')'로 시작하거나'('로 끝나면 false출력
         answer = False
-
     if n == 0:
         answer = True
     else:
