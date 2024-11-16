@@ -12,7 +12,6 @@ def solution(s):
             if n < -1:					#'())(()' 이렇게 나오는 것을 방지
                 answer = False
                 break
-                
         if n == -1: 					#n이 초기값 그대로면 '()'로 짝지어졌단 의미
             n = 0						
         else:							#아니라면 짝지어 지지 않았기 때문에 false출력
