@@ -2,6 +2,7 @@ def solution(s):
     answer = False
     lens = len(s)
     n = -1
+    
     if s[0]=="(":						#'('로 시작하는 문자열만 해당하도록
         for i in range(lens):			
             if s[i]=="(":
