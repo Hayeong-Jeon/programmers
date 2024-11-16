@@ -1,5 +1,6 @@
 def solution(s):
     answer=[]
+    
     num = [int(i) for i in s.split(' ')]   #공백을 기준으로 나누어 num에 저장
 
     answer.append(str(min(num)))   #answer에 num배열 중 가장 큰 값, 작은 값을 문자열로 저장
