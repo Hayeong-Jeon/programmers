@@ -1,6 +1,7 @@
 from collections import deque
 
 def solution(elements):
+
     queue1 = deque(elements)
     queue2 = deque(elements)
     sumq = 0
